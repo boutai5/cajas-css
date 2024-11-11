@@ -1,8 +1,24 @@
+
+
+#contenedor{
+display: flex;
+border: 5px dotted black;
+padding: 20px;
+
+}
+
+
 .caja{
 height: 100px;
 width: 100px;
+margin: auto;
+border: 5px solid black;
+border-radius: 20px;
+padding: 10px;
 
 }
+
+
 
 #lunes{
 background-color: aqua;
@@ -11,7 +27,7 @@ background-color: aqua;
 }
 #martes{
 background-color: blueviolet;
-
+border-radius: 100%;
 
 }
 
