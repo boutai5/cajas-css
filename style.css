@@ -15,7 +15,7 @@ margin: auto;
 border: 5px solid black;
 border-radius: 20px;
 padding: 10px;
-
+text-align:center;
 }
 
 
@@ -26,7 +26,7 @@ background-color: aqua;
 
 }
 #martes{
-background-color: blueviolet;
+background-color:crimson;
 border-radius: 100%;
 
 }
@@ -34,5 +34,11 @@ border-radius: 100%;
 #miercoles{
 background-color: chartreuse;
 
+}
+#contenedor{
+text-decoration: none;
+text-transform: uppercase;
 
 }
+
+
