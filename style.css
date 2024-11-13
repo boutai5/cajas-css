@@ -7,10 +7,16 @@ padding: 20px;
 
 }
 
+#contenedor a{
+    margin: auto;
+
+
+
+}
 
 .caja{
-height: 100px;
-width: 100px;
+height: 200px;
+width: 200px;
 margin: auto;
 border: 5px solid black;
 border-radius: 20px;
@@ -38,6 +44,34 @@ background-color: chartreuse;
 #contenedor{
 text-decoration: none;
 text-transform: uppercase;
+
+}
+nav{
+background-color: rgb(226, 43, 147);
+padding:15px;
+
+
+}
+nav ul{
+display: flex;
+list-style: none;
+
+}
+nav ul li{
+margin:auto;
+text-transform: uppercase;
+background-color: rgb(103, 120, 103);
+color: rgb(250, 251, 251);
+padding: 15px;
+border-radius: 7%;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.submenu{
+    display: block;
+
+
 
 }
 
