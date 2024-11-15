@@ -1,78 +1,116 @@
-
-
-#contenedor{
-display: flex;
-border: 5px dotted black;
-padding: 20px;
+#contenedor {
+    display: flex;
+    border: 5px dotted black;
+    padding: 20px;
 
 }
 
-#contenedor a{
+#contenedor a {
     margin: auto;
 
 
 
 }
 
-.caja{
-height: 200px;
-width: 200px;
-margin: auto;
-border: 5px solid black;
-border-radius: 20px;
-padding: 10px;
-text-align:center;
+.caja {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
 }
 
 
 
-#lunes{
-background-color: aqua;
+#lunes {
+    background-color: aqua;
 
 
 }
-#martes{
-background-color:crimson;
-border-radius: 100%;
+
+#martes {
+    background-color: crimson;
+    border-radius: 100%;
 
 }
 
-#miercoles{
-background-color: chartreuse;
+#miercoles {
+    background-color: chartreuse;
 
 }
-#contenedor{
-text-decoration: none;
-text-transform: uppercase;
+
+#contenedor {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(22, 73, 73)
 
 }
-nav{
-background-color: rgb(226, 43, 147);
-padding:15px;
+main{
+padding top: ;:100px;
+
+}
+
+nav {
+    background: linear-gradient(45deg, rgb(154, 111, 118), rgb(140, 88, 57));
+    padding: 15px;
+    position:fixed;
+    top: 10px;
 
 
 }
-nav ul{
-display: flex;
-list-style: none;
+
+nav ul {
+   
+    display: flex;
+    list-style: none;
 
 }
-nav ul li{
-margin:auto;
-text-transform: uppercase;
-background-color: rgb(103, 120, 103);
-color: rgb(250, 251, 251);
-padding: 15px;
-border-radius: 7%;
-font-weight: 700;
-font-family: Arial, Helvetica, sans-serif;
+
+nav ul li {
+    margin: auto;
+    text-transform: uppercase;
+    background-color: rgb(103, 120, 103);
+    color: rgb(250, 251, 251);
+    padding: 15px;
+    border-radius: 7%;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-.submenu{
+
+
+
+
+nav ul li:hover¨ {
+    background-color: rgb(112, 118, 21);
+
+
+}
+
+.submenu {
+    display: none;
+    position:absolute;
+
+
+
+
+}
+
+.submenu li:hover {
+    background: linear-gradient(45deg, rgb(165, 20, 20), rgb(20, 100, 165));
     display: block;
 
+}
+
+.submenu a {
+    text-decoration: none;
 
 
 }
 
+nav ul li:hover ul {
+    display: block;
 
+}
