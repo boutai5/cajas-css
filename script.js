@@ -53,7 +53,7 @@ let decada = 10;
 alert( saludo+" " +nombreusuario); //puedo concatenar el string usando+
 //no puede cambiar el valor
 const saludo_usuario = "hola de nuevo"
-
+/*
 console.log( 5 > 4);
 console.log( 5 < 8 );
 
@@ -62,3 +62,35 @@ console.log( 5 <= 7 );
 
 console.log( 5==5 );
 console.log( 5 !=7);
+
+console.log("a">"b");
+
+
+if (edad>=18) {
+    alert("eres mayor de edad");
+    
+
+}
+*/
+let premium = true;
+
+if(premium) {
+    console.log("tienes cuenta premium")
+    alert("bienvenido"+nombreusuario)
+
+}else if(edad>18){
+    Consol.log("puedes crear una cuenta");
+
+}else{
+    console.log("no puedes crear una cuenta");
+}
+
+
+//INTERACTUAR CON HTM.DOM
+//       recojo el elemento  //   que hago //
+document.getElementById("texto").innerHTML = "holaaaaa";
+
+document.getElementsByClassName("articulo");
+
+
+
