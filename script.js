@@ -38,7 +38,7 @@ let decada = 10;
 
  let edad = 16;
  edad = 17;
- edad +1;   //puedo sumar a la variable porque guarda el valor numerico
+ edad = edad + 1;   //puedo sumar a la variable porque guarda el valor numerico
  edad ++;  //suma uno
  edad --;  //resta uno
  edad += decada;
@@ -53,14 +53,13 @@ let decada = 10;
 alert( saludo+" " +nombreusuario); //puedo concatenar el string usando+
 //no puede cambiar el valor
 const saludo_usuario = "hola de nuevo"
-/*
 console.log( 5 > 4);
 console.log( 5 < 8 );
 
-console.log( 5 >= 6 );
+console.log( 5 >= 6 );  //igual que
 console.log( 5 <= 7 );
-
-console.log( 5==5 );
+console.log( 5== "5")
+console.log( 5 == 5 );
 console.log( 5 !=7);
 
 console.log("a">"b");
@@ -71,7 +70,7 @@ if (edad>=18) {
     
 
 }
-*/
+
 let premium = true;
 
 if(premium) {
@@ -89,8 +88,17 @@ if(premium) {
 //INTERACTUAR CON HTM.DOM
 //       recojo el elemento  //   que hago //
 document.getElementById("texto").innerHTML = "holaaaaa";
+document.getElementById("caja").innerHTML = <p> "hola de nuevo" </p>;
 
 document.getElementsByClassName("articulo");
 
+document.body.style.color = "red";
 
+//funciones
+function saludar() {
+    alert("bienvenido");
+
+}
+
+saludar();
 
