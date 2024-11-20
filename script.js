@@ -56,14 +56,15 @@ const saludo_usuario = "hola de nuevo"
 console.log( 5 > 4);
 console.log( 5 < 8 );
 
-console.log( 5 >= 6 );  //igual que
+console.log( 5 >= 6 );  // mayor que o igual que
 console.log( 5 <= 7 );
 console.log( 5== "5")
 console.log( 5 == 5 );
-console.log( 5 !=7);
+console.log( 5 !=7); //no es igual
 
 console.log("a">"b");
-
+let boleeano = (4 < 2);
+console.log(boleeano);
 
 if (edad>=18) {
     alert("eres mayor de edad");
@@ -88,11 +89,19 @@ if(premium) {
 //INTERACTUAR CON HTM.DOM
 //       recojo el elemento  //   que hago //
 document.getElementById("texto").innerHTML = "holaaaaa";
-document.getElementById("caja").innerHTML = <p> "hola de nuevo" </p>;
+document.getElementById("caja").innerHTML = "<p> hola de nuevo </p>";
+// selecciono primer elemento
+document.querySelector("#texto").innerHTML  =  "metiendo codigo";
+
+// seleccionar todos los elementos
+//document.queryselectorall
+
 
 document.getElementsByClassName("articulo");
 
-document.body.style.color = "red";
+let texto = document.getElementById("texto");
+texto.innerHTML =  " he guardado mi selector en una variable";
+document.body.style.color = "black";
 
 //funciones
 function saludar() {
@@ -101,4 +110,6 @@ function saludar() {
 }
 
 saludar();
+
+modo nochee()
 
