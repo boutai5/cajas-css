@@ -87,6 +87,7 @@ if(premium) {
 
 
 //INTERACTUAR CON HTM.DOM
+//selectores
 //       recojo el elemento  //   que hago //
 document.getElementById("texto").innerHTML = "holaaaaa";
 document.getElementById("caja").innerHTML = "<p> hola de nuevo </p>";
@@ -101,7 +102,9 @@ document.getElementsByClassName("articulo");
 
 let texto = document.getElementById("texto");
 texto.innerHTML =  " he guardado mi selector en una variable";
+texto.style.color = " blue";
 document.body.style.color = "black";
+
 
 //funciones
 function saludar() {
@@ -109,7 +112,20 @@ function saludar() {
 
 }
 
-saludar();
 
-modo nochee()
 
+function modoNoche(){
+document.body.style.backround = "black";
+};
+
+function modoDia(){
+    document.body.style.backround = "white";
+
+}
+
+//// estrellas cayendo   
+function createstar(){
+const star = document.createlemn
+star.classlist.add('star');
+
+}
