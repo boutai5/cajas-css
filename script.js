@@ -127,21 +127,23 @@ function modoDia(){
 
 }
 
+function saludarUsuario(){
+     let inputUsuario = document.querySelector("#nombre-usuario");
+     alert(" hola de nuevo"+inputUsuario);
+     if( inputUsuario =="roxana"){}
 
-
+}
 
 //// -------estrellas cayendo   -----
-function createstar(){
-const star = document.createElement('div');
-star.classlist.add('star');
-star.style.left = Math.random() * 6 + 9+ 's';
-document.body.appendChild(star);
-setTimeout(() = > {
-
-    star.remove();
-
-}, 5000);
-
+function createstar() {
+    const star = document.createElement('div');
+    star.classList = Math.random() * 100 + 'vw';
+    star.style.animationDuration = Math.random() * 6 + 9 + 's';
+    document.body.appendChild(star);
+    setTimeout(() => {
+        star.remove();
+    },  5000);
+    
 }
 setInterval(createstar, 300);
 

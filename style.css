@@ -88,14 +88,21 @@ nav ul li {
     top: -50px;
     width: 40px;
     height: 40px;
-    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fes%2Fphotos%2Festrella.html&psig=AOvVaw1tL-AmjJijhLq_RJLxBnAr&ust=1732615395636000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjB2b-d94kDFQAAAAAdAAAAABAE ) ;
+    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fes%2Fphotos%2Festrella.html&psig=AOvVaw1tL-AmjJijhLq_RJLxBnAr&ust=1732615395636000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjB2b-d94kDFQAAAAAdAAAAABAE );
     background-size: 100%;
     animation:fall linear infinite;
 }
+
+
 @keyframes fall{
     from{
-        transform: translateX(1vh);
+        transfor
+        m: translateX(1vh);
     }
+to{
+    transform:translateY(300vh);
+  }    
+
 }
 
 
@@ -135,6 +142,5 @@ nav ul li:hover ul {
 .button{
 
 color: aqua;
-
 
 }
