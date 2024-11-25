@@ -107,6 +107,10 @@ document.body.style.color = "black";
 
 
 //funciones
+// function ingresar
+
+
+
 function saludar() {
     alert("bienvenido");
 
@@ -123,9 +127,21 @@ function modoDia(){
 
 }
 
-//// estrellas cayendo   
+
+
+
+//// -------estrellas cayendo   -----
 function createstar(){
-const star = document.createlemn
+const star = document.createElement('div');
 star.classlist.add('star');
+star.style.left = Math.random() * 6 + 9+ 's';
+document.body.appendChild(star);
+setTimeout(() = > {
+
+    star.remove();
+
+}, 5000);
 
 }
+setInterval(createstar, 300);
+
