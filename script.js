@@ -61,7 +61,7 @@ console.log( 5 <= 7 );
 console.log( 5== "5")
 console.log( 5 == 5 );
 console.log( 5 !=7); //no es igual
-
+if (premium||femenino);  //elegir entre la pr
 console.log("a">"b");
 let boleeano = (4 < 2);
 console.log(boleeano);
@@ -149,4 +149,17 @@ function createstar() {
     
 }
 setInterval(createstar, 300);
+//---------------------
+
+
+//genero//
+if(generofemenino.cheked){
+    alert("bienvenida"+inputUsuario);
+}else if(generoMasculino.cheked){
+    alert("bienvenido"+inputUsuario);
+
+}else{
+    alert("hola"+inputUsuario);
+}
+
 
