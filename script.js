@@ -162,4 +162,7 @@ if(generofemenino.cheked){
     alert("hola"+inputUsuario);
 }
 
+function motrarUsuario(inputUsuario
+){conscontenedorusuario = documen.querySelector("#contenedor-usuarios")
 
+}
